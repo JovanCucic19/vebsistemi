@@ -1,0 +1,150 @@
+.ulklasa {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D1D06C;
+}
+
+.liklasa {
+    float: left;
+}
+.liklasa2 {
+    float: right;
+}
+
+.liklasa2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liklasa2 a:hover {
+    transition: 0.7s ease;
+}
+
+.liklasa a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liklasa a:hover {
+    transition: 0.7s ease;
+}
+
+.container{
+    width: 70%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.navigacija{
+    background: #D1D06C;
+    padding-bottom: 7px;
+    width: 100%;
+    position: static;
+}
+
+#naslov{
+    background: #D1D06C;
+    margin: auto;
+    padding-left: 40%;
+    position: relative;
+}
+
+h1{
+    padding-top: 5%;
+}
+
+.push{
+    padding: 5px;
+    background: #E9EB9A;
+}
+
+#glavni{
+    margin: 0 auto;
+    float: left;
+    background: #D1D06C;
+    padding: 2% 6% 2% 6% ;
+    width: 70%;
+}
+
+.navigacija > p{
+    padding: 5%;
+}
+html,
+body{
+    background:  #E9EB9A;
+    margin: 0;
+    height: 100%;
+}
+
+#ulhead {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    background-color: #D1D06C;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+.lihead a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 38px 30px 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E9EB9A;
+}
+
+#obavestenje{
+    float: right;
+    background: #D1D06C;
+    width: 15%;
+    height: 290px;
+}
+
+#ulobavestenje{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px 0px 0px ;
+
+}
+
+h4{
+    padding-left: 10px;
+}
+
+.liobavestenje a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+#footer{
+    position:absolute;
+    left: 15%;
+    height: 60px;
+    width: 70%;
+    top: 96%;
+    background-color: #D1D06C;
+}
+
+.text{
+    padding-left: 5%;
+}
+
+
